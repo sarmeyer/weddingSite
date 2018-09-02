@@ -1,0 +1,1392 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/sarahmeyer/Desktop/Projects/weddingSite/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0573b52a2366debe05e1bf23d92823d8",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cbfe34474d976e6b68680ae8ed2557b4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin load-babel-config": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1b748f8800610ec3572e613ea59e158b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "df178a59ec04a6e0317ff9114d4c7b43",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c07044c6a659942f1f77f520a4a645c6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ff62069631f2b62f14b0505797abcffa",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-catch-links": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-plugin-catch-links",
+      "id": "Plugin gatsby-plugin-catch-links",
+      "name": "gatsby-plugin-catch-links",
+      "version": "1.0.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "1.0.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "39dac97668f9d02d5c1077ab7bfafdfd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "pages",
+        "path": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fef28d28d86443be84270d2ac72a9652",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.67",
+            "pluginOptions": {
+              "plugins": [],
+              "linkImagesToOriginal": false,
+              "maxWidth": 650,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "showCaptions": false,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-remark-images"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c63955f0b91c7d77e2a65a927cde45a6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.67",
+      "pluginOptions": {
+        "plugins": [],
+        "linkImagesToOriginal": false,
+        "maxWidth": 650,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "showCaptions": false,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.67",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0d78877daa5fc31afe2c02bc52d65a3f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.0-beta.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.0-beta.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "7.0.0-beta.51"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "7.0.0-beta.51"
+          },
+          {
+            "name": "@babel/core",
+            "version": "7.0.0-beta.51"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fc370606cbe6f72ca4793e0cf77104bc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.27",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "887c9cc64dad68e802491d3f443a7512",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.48",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.48",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "729a9fcf0802c457b1d1896c81f08a09",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "53ea7ff1ebf39fd53ef1a2bebaaa840f",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "classnames",
+            "version": "^2.2.6"
+          },
+          {
+            "name": "gatsby",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "^1.0.24"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.67"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.39"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.44"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.27"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.12.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "556579af6e6027f2a9b33e956721dfb0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.0-beta.2",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.0-beta.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "7.0.0-beta.51"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "7.0.0-beta.51"
+          },
+          {
+            "name": "@babel/core",
+            "version": "7.0.0-beta.51"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6749a09bb24e035b1dc74e3d362e32ce",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "author": "You!",
+        "title": "Gatsby Default (Blog) Starter"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-08-20T22:45:43.576Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cf580e726b46c83e9168e71880503210",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content absPath of file": {
+      "id": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0bf9438dc6dc896c63cd56206bc47620",
+        "type": "Directory",
+        "description": "Directory \"src/content\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content",
+      "relativePath": "",
+      "extension": "",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-08-20T22:29:06.000Z",
+      "accessTime": "2018-08-20T22:45:48.000Z",
+      "changeTime": "2018-08-20T22:29:06.000Z",
+      "birthTime": "2018-08-20T22:29:06.000Z",
+      "root": "/",
+      "dir": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src",
+      "base": "content",
+      "ext": "",
+      "name": "content",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8932796,
+      "blocks": 0,
+      "atimeMs": 1534805148000,
+      "mtimeMs": 1534804146000,
+      "ctimeMs": 1534804146000,
+      "birthtimeMs": 1534804146000,
+      "atime": "2018-08-20T22:45:48.000Z",
+      "mtime": "2018-08-20T22:29:06.000Z",
+      "ctime": "2018-08-20T22:29:06.000Z",
+      "birthtime": "2018-08-20T22:29:06.000Z"
+    },
+    "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first absPath of file": {
+      "id": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "aa0dc8939dc116cab1ed62e5134ff6dd",
+        "type": "Directory",
+        "description": "Directory \"src/content/01_first\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first",
+      "relativePath": "01_first",
+      "extension": "",
+      "size": 170,
+      "prettySize": "170 B",
+      "modifiedTime": "2018-08-20T22:29:06.000Z",
+      "accessTime": "2018-08-20T22:45:48.000Z",
+      "changeTime": "2018-08-20T22:29:06.000Z",
+      "birthTime": "2018-08-20T22:29:06.000Z",
+      "root": "/",
+      "dir": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content",
+      "base": "01_first",
+      "ext": "",
+      "name": "01_first",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8932797,
+      "blocks": 0,
+      "atimeMs": 1534805148000,
+      "mtimeMs": 1534804146000,
+      "ctimeMs": 1534804146000,
+      "birthtimeMs": 1534804146000,
+      "atime": "2018-08-20T22:45:48.000Z",
+      "mtime": "2018-08-20T22:29:06.000Z",
+      "ctime": "2018-08-20T22:29:06.000Z",
+      "birthtime": "2018-08-20T22:29:06.000Z"
+    },
+    "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/thumb_01.jpg absPath of file": {
+      "id": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/thumb_01.jpg absPath of file",
+      "children": [
+        "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/thumb_01.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "070adf6ec509d4b4d8f6a641d3170d86",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/content/01_first/thumb_01.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/thumb_01.jpg",
+      "relativePath": "01_first/thumb_01.jpg",
+      "extension": "jpg",
+      "size": 8450,
+      "prettySize": "8.45 kB",
+      "modifiedTime": "2018-08-20T22:29:06.000Z",
+      "accessTime": "2018-08-20T22:29:06.000Z",
+      "changeTime": "2018-08-20T22:29:06.000Z",
+      "birthTime": "2018-08-20T22:29:06.000Z",
+      "root": "/",
+      "dir": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first",
+      "base": "thumb_01.jpg",
+      "ext": ".jpg",
+      "name": "thumb_01",
+      "relativeDirectory": "01_first",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8932800,
+      "blocks": 24,
+      "atimeMs": 1534804146000,
+      "mtimeMs": 1534804146000,
+      "ctimeMs": 1534804146000,
+      "birthtimeMs": 1534804146000,
+      "atime": "2018-08-20T22:29:06.000Z",
+      "mtime": "2018-08-20T22:29:06.000Z",
+      "ctime": "2018-08-20T22:29:06.000Z",
+      "birthtime": "2018-08-20T22:29:06.000Z"
+    },
+    "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/first.md absPath of file": {
+      "id": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/first.md absPath of file",
+      "children": [
+        "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/first.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "75bbfb159e9505c4e3dac6f409b9f7d1",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/content/01_first/first.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/first.md",
+      "relativePath": "01_first/first.md",
+      "extension": "md",
+      "size": 227,
+      "prettySize": "227 B",
+      "modifiedTime": "2018-08-20T22:29:06.000Z",
+      "accessTime": "2018-08-20T22:29:06.000Z",
+      "changeTime": "2018-08-20T22:29:06.000Z",
+      "birthTime": "2018-08-20T22:29:06.000Z",
+      "root": "/",
+      "dir": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first",
+      "base": "first.md",
+      "ext": ".md",
+      "name": "first",
+      "relativeDirectory": "01_first",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8932798,
+      "blocks": 8,
+      "atimeMs": 1534804146000,
+      "mtimeMs": 1534804146000,
+      "ctimeMs": 1534804146000,
+      "birthtimeMs": 1534804146000,
+      "atime": "2018-08-20T22:29:06.000Z",
+      "mtime": "2018-08-20T22:29:06.000Z",
+      "ctime": "2018-08-20T22:29:06.000Z",
+      "birthtime": "2018-08-20T22:29:06.000Z"
+    },
+    "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/full_01.jpg absPath of file": {
+      "id": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/full_01.jpg absPath of file",
+      "children": [
+        "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/full_01.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3ce9acc2128c58679a350d8053de9975",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/content/01_first/full_01.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/full_01.jpg",
+      "relativePath": "01_first/full_01.jpg",
+      "extension": "jpg",
+      "size": 48762,
+      "prettySize": "48.8 kB",
+      "modifiedTime": "2018-08-20T22:29:06.000Z",
+      "accessTime": "2018-08-20T22:29:06.000Z",
+      "changeTime": "2018-08-20T22:29:06.000Z",
+      "birthTime": "2018-08-20T22:29:06.000Z",
+      "root": "/",
+      "dir": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first",
+      "base": "full_01.jpg",
+      "ext": ".jpg",
+      "name": "full_01",
+      "relativeDirectory": "01_first",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8932799,
+      "blocks": 96,
+      "atimeMs": 1534804146000,
+      "mtimeMs": 1534804146000,
+      "ctimeMs": 1534804146000,
+      "birthtimeMs": 1534804146000,
+      "atime": "2018-08-20T22:29:06.000Z",
+      "mtime": "2018-08-20T22:29:06.000Z",
+      "ctime": "2018-08-20T22:29:06.000Z",
+      "birthtime": "2018-08-20T22:29:06.000Z"
+    },
+    "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/thumb_01.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/thumb_01.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/thumb_01.jpg absPath of file",
+      "internal": {
+        "contentDigest": "070adf6ec509d4b4d8f6a641d3170d86",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/full_01.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/full_01.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/full_01.jpg absPath of file",
+      "internal": {
+        "contentDigest": "3ce9acc2128c58679a350d8053de9975",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/first.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/first.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/first.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Magna feugiat lorem\"\npath: \"/first-post\"\ndate: \"2000-03-21\"\nmodalImage: \"./full_01.jpg\"\nthumbnailImage: \"./thumb_01.jpg\"\n---\n\nNunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "a806244ba5c9fb5ac31bf4727968ac4c",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Magna feugiat lorem",
+        "path": "/first-post",
+        "date": "2000-03-21",
+        "modalImage": "./full_01.jpg",
+        "thumbnailImage": "./thumb_01.jpg",
+        "_PARENT": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/first.md absPath of file",
+        "parent": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/first.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nNunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.\n",
+      "fileAbsolutePath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/first.md"
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8eb97e1372d65207ade94dd93d88b21f",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /first-post": {
+      "jsonName": "first-post-eb4",
+      "internalComponentName": "ComponentFirstPost",
+      "path": "/first-post",
+      "component": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/templates/post.js",
+      "id": "SitePage /first-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b579299441b20c0d843263cb67e8924c",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "8e280be87e0d744b55e58f4eff2da9f3"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/content/01_first/first.md absPath of file >>> MarkdownRemark": [
+        "/first-post"
+      ]
+    },
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "path---dev-404-page-5-f-9-fab-6thS1YbfAF8Nd4DzI3qdITXME",
+    "index": "path---index-6a9-QAYDlLDgmcybAhwJPJibUxz8fk",
+    "first-post-eb4": "path---first-post-eb-4-4f5-pFGFtrVoWOtRkcSRCiZIpmiCyU"
+  },
+  "components": {
+    "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/pages/index.js"
+    },
+    "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/templates/post.js": {
+      "query": "query BlogPostByPath(\n  $path: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $path}}) {\n    html\n    frontmatter {\n      date(formatString: \"MMMM DD, YYYY\")\n      path\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/src/templates/post.js"
+    },
+    "/Users/sarahmeyer/Desktop/Projects/weddingSite/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/sarahmeyer/Desktop/Projects/weddingSite/.cache/dev-404-page.js"
+    }
+  },
+  "staticQueryComponents": {}
+}
