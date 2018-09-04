@@ -54,7 +54,7 @@ apiRunnerAsync(`onClientEntry`).then(() => {
 const preferDefault = m => (m && m.default) || m;
 
 function supportsServiceWorkers(location, navigator) {
-  if (location.hostname === `localhost` || location.protocol === `http:`) {
+  if (location.hostname === `localhost` || location.protocol === `https:`) {
     return `serviceWorker` in navigator;
   }
   return false;
