@@ -1,21 +1,21 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import domReady from "domready"
+import React from "react";
+import ReactDOM from "react-dom";
+import domReady from "domready";
 
-import socketIo from "./socketIo"
-import emitter from "./emitter"
-import { apiRunner, apiRunnerAsync } from "./api-runner-browser"
+import socketIo from "./socketIo";
+import emitter from "./emitter";
+import { apiRunner, apiRunnerAsync } from "./api-runner-browser";
 
-window.___emitter = emitter
+window.___emitter = emitter;
 
 // Let the site/plugins run code very early.
 apiRunnerAsync(`onClientEntry`).then(() => {
   // Hook up the client to socket.io on server
-  const socket = socketIo()
+  const socket = socketIo();
   if (socket) {
     socket.on(`reload`, () => {
-      window.location.reload()
-    })
+      window.location.reload();
+    });
   }
 
   /**
@@ -29,33 +29,33 @@ apiRunnerAsync(`onClientEntry`).then(() => {
   if (supportsServiceWorkers(location, navigator)) {
     navigator.serviceWorker.getRegistrations().then(registrations => {
       for (let registration of registrations) {
-        registration.unregister()
+        registration.unregister();
       }
-    })
+    });
   }
 
-  const rootElement = document.getElementById(`___gatsby`)
+  const rootElement = document.getElementById(`___gatsby`);
 
-  let Root = preferDefault(require(`./root`))
+  let Root = preferDefault(require(`./root`));
 
   const renderer = apiRunner(
     `replaceHydrateFunction`,
     undefined,
     ReactDOM.render
-  )[0]
+  )[0];
 
   domReady(() => {
     renderer(<Root />, rootElement, () => {
-      apiRunner(`onInitialClientRender`)
-    })
-  })
-})
+      apiRunner(`onInitialClientRender`);
+    });
+  });
+});
 
-const preferDefault = m => (m && m.default) || m
+const preferDefault = m => (m && m.default) || m;
 
 function supportsServiceWorkers(location, navigator) {
-  if (location.hostname === `localhost` || location.protocol === `https:`) {
-    return `serviceWorker` in navigator
+  if (location.hostname === `localhost` || location.protocol === `http:`) {
+    return `serviceWorker` in navigator;
   }
-  return false
+  return false;
 }
