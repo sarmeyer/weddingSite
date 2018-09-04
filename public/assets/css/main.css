@@ -752,6 +752,11 @@ table {
 
 .box.style2 {
   padding: 3.5em 2.5em 3.5em 2.5em;
+  opacity: 0.5;
+}
+
+.box.style2.opacity94 {
+  opacity: 0.94 !important;
 }
 
 @media screen and (max-width: 736px) {
@@ -2319,26 +2324,20 @@ body.is-touch .main {
   }
 }
 
-/* Home */
-
 #home {
   background: url("images/overlay.png"), url("../../images/main.JPG");
-  background-size: 256px 256px, cover;
+  background-size: 86%;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat;
 }
 
-/* One */
-
 #one {
-  background: url("images/overlay.png"), url("../../images/mtn.jpg");
+  background: url("images/overlay.png"), url("../../images/skimtn.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
 }
-
-/* Two */
 
 #two {
   background: url("images/overlay.png"), url("../../images/camp.jpg");
@@ -2347,40 +2346,9 @@ body.is-touch .main {
   background-position: top left, center center;
 }
 
-/* Contact */
-
-#contact {
-  overflow: hidden;
-  padding-bottom: 0;
-}
-
-#contact .box {
-  -moz-transition: -moz-transform 1s ease;
-  -webkit-transition: -webkit-transform 1s ease;
-  -ms-transition: -ms-transform 1s ease;
-  transition: transform 1s ease;
-  -moz-transform: translateY(0);
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-  position: relative;
-}
-
-#contact.inactive .box {
-  -moz-transform: translateY(100%);
-  -webkit-transform: translateY(100%);
-  -ms-transform: translateY(100%);
-  transform: translateY(100%);
-}
-
-@media screen and (max-width: 736px) {
-  #contact .box {
-    padding: 1.5em 1.5em 2em 1.5em;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #contact .box {
-    padding: 1em 1em 2em 1em;
-  }
+#three {
+  background: url("images/overlay.png"), url("../../images/telle2.jpg");
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center;
 }
