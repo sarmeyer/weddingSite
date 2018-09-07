@@ -681,6 +681,35 @@ h6 a {
   text-decoration: none;
 }
 
+.mainTitle {
+  font-size: 3.25em;
+  line-height: 1.25em;
+  letter-spacing: 0.02em;
+  font-family: Brush;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+.mainDetails {
+  position: relative;
+  top: 180px;
+  font-size: 1.5em;
+}
+
+.mainArrow {
+  position: absolute !important;
+  bottom: 0 !important;
+}
+
+.details {
+  font-size: 1.5em;
+}
+
+.details > div {
+  margin-bottom: 0.5em;
+}
+
 h2 {
   font-size: 2.25em;
   line-height: 1.25em;
@@ -735,14 +764,6 @@ blockquote {
   border-left: solid 0.5em #e5e6e7;
   padding: 1em 0 1em 2em;
   font-style: italic;
-}
-
-p,
-ul,
-ol,
-dl,
-table {
-  margin-bottom: 1em;
 }
 
 /* Box */
@@ -2355,6 +2376,13 @@ body.is-touch .main {
 
 #three {
   background: url("images/overlay.png"), url("../../images/telle2.jpg");
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center;
+}
+
+#travel {
+  background: url("images/overlay.png"), url("../../images/stars.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;

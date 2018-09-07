@@ -5,29 +5,23 @@ class Header extends Component {
   render() {
     return (
       <header id="header">
-        <h1>#BoulderShenanEgans</h1>
+        <span>#BoulderShenanEgans</span>
         <nav>
           <ul>
             <li>
               <a href="#home">Home</a>
             </li>
             <li>
-              <a
-                href="javascript:void(0)"
-                onClick={() => {
-                  console.log("scroll to element");
-                  e.preventDefault();
-                  scrollToElement(".wedding");
-                }}
-              >
-                The Wedding
-              </a>
+              <a href="one">The Wedding</a>
             </li>
             <li>
-              <a href="#two">Timeline</a>
+              <a href="#two">The Welcome Party</a>
             </li>
             <li>
-              <a href="#three">Travel Details</a>
+              <a href="#three">Hotel Info</a>
+            </li>
+            <li>
+              <a href="#travel">Travel</a>
             </li>
             <li>
               <a href="#people">The People</a>
