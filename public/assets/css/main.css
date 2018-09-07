@@ -2359,3 +2359,26 @@ body.is-touch .main {
   background-attachment: fixed, fixed;
   background-position: top left, center center;
 }
+
+/* dynamic images */
+
+@media screen and (max-width: 767px) {
+  #home {
+    background: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
+  }
+}
+@media screen and (max-width: 767px) {
+  #one {
+    background: url(http://subtlepatterns.com/patterns/paisley.png);
+  }
+}
+@media screen and (max-width: 767px) {
+  #two {
+    background: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
+  }
+}
+@media screen and (max-width: 767px) {
+  #three {
+    background: url(http://subtlepatterns.com/patterns/paisley.png);
+  }
+}
