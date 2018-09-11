@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 
 class Travel extends Component {
   render() {
@@ -29,9 +30,16 @@ class Travel extends Component {
             </div>
           </div>
         </div>
-        <a href="#photos" className="button style2 down anchored">
+        <Link
+          activeClass="active"
+          className="button style2 down anchored"
+          to="travel"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
           Next
-        </a>
+        </Link>
       </div>
     );
   }

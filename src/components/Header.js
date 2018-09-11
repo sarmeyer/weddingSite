@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { scrollToElement } from "scroll-to-element";
+import { Link } from "react-scroll";
 
 class Header extends Component {
   render() {
@@ -9,25 +9,88 @@ class Header extends Component {
         <nav>
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <Link
+                activeClass="active"
+                className="home"
+                to="home"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Home
+              </Link>
             </li>
             <li>
-              <a href="one">The Wedding</a>
+              <Link
+                activeClass="active"
+                className="wedding"
+                to="wedding"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                The Wedding
+              </Link>
             </li>
             <li>
-              <a href="#two">The Welcome Party</a>
+              <Link
+                activeClass="active"
+                className="welcome"
+                to="welcome"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                The Welcome Party
+              </Link>
             </li>
             <li>
-              <a href="#three">Hotel Info</a>
+              <Link
+                activeClass="active"
+                className="hotel"
+                to="hotel"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Hotel Info
+              </Link>
             </li>
             <li>
-              <a href="#travel">Travel</a>
+              <Link
+                activeClass="active"
+                className="travel"
+                to="travel"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Travel Info
+              </Link>
             </li>
             <li>
-              <a href="#people">The People</a>
+              <Link
+                activeClass="active"
+                className="people"
+                to="people"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                The People
+              </Link>
             </li>
             <li>
-              <a href="#photos">Our Adventures</a>
+              <Link
+                activeClass="active"
+                className="photos"
+                to="photos"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Our Adventures
+              </Link>
             </li>
           </ul>
         </nav>

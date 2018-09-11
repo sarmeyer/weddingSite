@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 
 class WeddingSection extends Component {
   render() {
     return (
-      <div id="one" className="main style2 dark right fullscreen">
+      <div id="wedding" className="main style2 dark right fullscreen">
         <div className="content box style2 opacity94">
           <h2>The Wedding</h2>
           <iframe
@@ -20,7 +21,16 @@ class WeddingSection extends Component {
           <div>The Rembrandt Yard</div>
           <div>Boulder, Colorado</div>
         </div>
-        <a href="#two" className="button style2 down anchored" />
+        <Link
+          activeClass="active"
+          className="button style2 down anchored"
+          to="welcome"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+          Next
+        </Link>
       </div>
     );
   }

@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 
 class Hotel extends Component {
   render() {
     return (
-      <div id="three" className="main style2 right dark fullscreen">
+      <div id="hotel" className="main style2 right dark fullscreen">
         <div className="content box style2">
           <h2>Hotel Info</h2>
           <div className="details">
@@ -14,9 +15,16 @@ class Hotel extends Component {
             <div>2115 13th St, Boulder, CO 80302</div>
           </div>
         </div>
-        <a href="#photos" className="button style2 down anchored">
+        <Link
+          activeClass="active"
+          className="button style2 down anchored"
+          to="travel"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
           Next
-        </a>
+        </Link>
       </div>
     );
   }

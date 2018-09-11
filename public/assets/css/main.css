@@ -2360,21 +2360,21 @@ body.is-touch .main {
   background-repeat: repeat, no-repeat;
 }
 
-#one {
+#wedding {
   background: url("images/overlay.png"), url("../../images/skimtn.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
 }
 
-#two {
+#welcome {
   background: url("images/overlay.png"), url("../../images/camp.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
 }
 
-#three {
+#hotel {
   background: url("images/overlay.png"), url("../../images/telle2.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
@@ -2396,17 +2396,17 @@ body.is-touch .main {
   }
 }
 @media screen and (max-width: 767px) {
-  #one {
+  #wedding {
     background: url(http://subtlepatterns.com/patterns/paisley.png);
   }
 }
 @media screen and (max-width: 767px) {
-  #two {
+  #welcome {
     background: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
   }
 }
 @media screen and (max-width: 767px) {
-  #three {
+  #hotel {
     background: url(http://subtlepatterns.com/patterns/paisley.png);
   }
 }
