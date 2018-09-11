@@ -44,12 +44,12 @@ class App extends Component {
             />
           </div>
         </Element>
-        <WeddingSection id="wedding" />
-        <WelcomeParty id="welcome" />
-        <Hotel id="hotel" />
-        <Travel id="travel" />
-        <Photos title="Meet the Party" id="people" />
-        <Photos title="Our Adventures" id="photos" />
+        <WeddingSection />
+        <WelcomeParty />
+        <Hotel />
+        <Travel />
+        <Photos title="Meet the Party" link="people" />
+        <Photos title="Our Adventures" link="photos" />
         <Footer />
       </div>
     );

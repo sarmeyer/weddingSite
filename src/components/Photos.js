@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 class Photos extends Component {
   render() {
-    const { title } = this.props;
+    const { title, link } = this.props;
     return (
-      <div id="photos" className="main style3 primary">
+      <div id={link} className="main style3 primary">
         <div className="content">
           <h2>{title}</h2>
           <div className="gallery">
@@ -60,7 +60,8 @@ class Photos extends Component {
 
 Photos.proptypes = {
   title: PropTypes.string,
-  images: PropTypes.array
+  images: PropTypes.array,
+  link: PropTypes.string
 };
 
 export default Photos;

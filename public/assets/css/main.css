@@ -686,15 +686,14 @@ h6 a {
   line-height: 1.25em;
   letter-spacing: 0.02em;
   font-family: Brush;
-  position: absolute;
-  top: 50%;
+  top: -60%;
+  position: fixed;
   left: 15%;
 }
 
 .mainDetails {
-  position: relative;
-  top: 180px;
   font-size: 1.5em;
+  padding-bottom: 11%;
 }
 
 .mainArrow {
@@ -786,6 +785,7 @@ blockquote {
 
 .box.style2.opacity94 {
   opacity: 0.94 !important;
+  padding-bottom: 20px !important;
 }
 
 @media screen and (max-width: 736px) {
@@ -2353,9 +2353,9 @@ body.is-touch .main {
 }
 
 #home {
-  background: url("images/overlay.png"), url("../../images/main.JPG");
-  background-size: 86%;
+  background: url("images/overlay.png"), url("../../images/street.jpg");
   background-attachment: fixed, fixed;
+  background-size: 256px 256px, cover;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat;
 }
