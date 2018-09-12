@@ -31,6 +31,10 @@ class App extends Component {
       "sherman.JPG"
     ];
 
+    const peoplePhotos = [];
+
+    //**** Links and Elements need an offset property added to them */
+
     return (
       <div className="is-preload">
         <Header />

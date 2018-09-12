@@ -5,6 +5,8 @@ class Photos extends Component {
   render() {
     const { title, link, images } = this.props;
 
+    //***** could have two different arrays for left and right and map over them separately to create the `from-left` and `from-right` articles
+
     return (
       <div id={link} className="main style3 primary">
         <div className="content">
