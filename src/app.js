@@ -22,6 +22,15 @@ class App extends Component {
   }
 
   render() {
+    const adventurePhotos = [
+      "flatirons.JPG",
+      "indypass.jpeg",
+      "main.JPG",
+      "mtn.jpg",
+      "moab.JPG",
+      "sherman.JPG"
+    ];
+
     return (
       <div className="is-preload">
         <Header />
@@ -49,7 +58,7 @@ class App extends Component {
         <Hotel />
         <Travel />
         <Photos title="Meet the Party" link="people" />
-        <Photos title="Our Adventures" link="photos" />
+        <Photos title="Our Adventures" link="photos" images={adventurePhotos} />
         <Footer />
       </div>
     );
