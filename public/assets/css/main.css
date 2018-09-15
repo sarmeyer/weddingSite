@@ -130,6 +130,10 @@ q {
   quotes: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -2382,7 +2386,7 @@ body.is-touch .main {
 }
 
 #travel {
-  background: url("images/overlay.png"), url("../../images/stars.jpg");
+  background: url("images/overlay.png"), url("../../images/stars1.jpeg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
@@ -2392,21 +2396,21 @@ body.is-touch .main {
 
 @media screen and (max-width: 767px) {
   #home {
-    background: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
+    background: url("../../images/mobile/IMG_4376.jpg");
   }
 }
 @media screen and (max-width: 767px) {
   #wedding {
-    background: url(http://subtlepatterns.com/patterns/paisley.png);
+    background: url("../../images/mobile/IMG_5728.jpg");
   }
 }
 @media screen and (max-width: 767px) {
   #welcome {
-    background: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
+    background: url("../../images/mobile/IMG_7449.jpeg");
   }
 }
 @media screen and (max-width: 767px) {
   #hotel {
-    background: url(http://subtlepatterns.com/patterns/paisley.png);
+    background: url("../../images/mobile/IMG_7859.jpg");
   }
 }

@@ -11,18 +11,65 @@ class Travel extends Component {
         >
           <h2>Travel Info</h2>
           <div style={{ fontWeight: "bold", letterSpacing: "initial" }}>
-            DIA to Boulder
+            General Colorado Travel Information
           </div>
-          <div>Bus, directions, link to map</div>
+          <div>
+            Colorado is the Mile High City meaning we sit 5,280 feet above sea
+            level in town - Boulder has about the same elevation. Coming from
+            sea level, the elevation change can sometimes cause headaches and
+            altitude sickness. DRINK LOTS OF WATER.
+          </div>
           <div style={{ fontWeight: "bold", letterSpacing: "initial" }}>
-            Things to do and see
+            Denver International Airport to Boulder
+          </div>
+          <div>
+            There is a bus from the airport to Boulder which runs every 30
+            minutes during the day (every hour after 9:20pm). You'll want to
+            look for Route AB/AB1/AB2. The fare is $9 and it takes about an
+            hour.
+          </div>
+          <div style={{ fontWeight: "bold", letterSpacing: "initial" }}>
+            Denver International Airport to Downtown Denver
+          </div>
+          <div>
+            The easiest way into Denver is the LightRail train which leaves
+            directly from the airport and ends at Union Station in Downtown
+            Denver. The fare is also $9 and it takes about 35 minutes.
+          </div>
+          <div style={{ fontWeight: "bold", letterSpacing: "initial" }}>
+            Things to do and see in Boulder
           </div>
           <ul>
-            <li>Chautauqua Hiking Trails & Dining Hall</li>
-            <li>Boulder Tea House</li>
-            <li>The Boulder Creek Path</li>
-            <li>University of Colorado Campus</li>
-            <li>Pearl Street Shops & Restaurants</li>
+            <li>
+              <a href="https://bouldercolorado.gov/parks-rec/chautauqua-park">
+                Chautauqua Hiking Trails & Dining Hall
+              </a>
+            </li>
+            <li>
+              <a href="https://boulderteahouse.com/">
+                Boulder Dushanbe Tea House
+              </a>
+            </li>
+            <li>
+              <a href="https://bouldercolorado.gov/parks-rec/boulder-creek-path">
+                The Boulder Creek Path
+              </a>
+            </li>
+            <li>
+              <a href="https://www.colorado.edu/visit/">
+                University of Colorado Campus - Folsom Field
+              </a>
+            </li>
+            <li>
+              <a href="https://www.boulderdowntown.com/">
+                Pearl Street Shops & Restaurants
+              </a>
+            </li>
+            <li>
+              <a href="http://www.thehillboulder.com/history-of-the-hill/">
+                The Hill - Historic District
+              </a>
+            </li>
           </ul>
         </div>
         <Link
