@@ -47,7 +47,7 @@ class App extends Component {
             </div>
             <Link
               activeClass="active"
-              className="mainArrow button style2 down wedding"
+              className="mainArrow button style2 down"
               to="wedding"
               spy={true}
               smooth={true}

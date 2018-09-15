@@ -5,7 +5,7 @@ class Hotel extends Component {
   render() {
     return (
       <div id="hotel" className="main style2 right dark fullscreen">
-        <div className="content box style2">
+        <div className="content box style2" id="details">
           <h2>Hotel Info</h2>
           <div className="details">
             <div>

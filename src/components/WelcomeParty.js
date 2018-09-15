@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 class WelcomeParty extends Component {
   render() {
     return (
-      <div id="welcome" className="main style2 left dark fullscreen wedding">
-        <div className="content box style2">
+      <div id="welcome" className="main style2 left dark fullscreen">
+        <div className="content box style2" id="details">
           <h2>The Welcome Party</h2>
           <div className="details">
             <div>Friday, June 28, 2019</div>

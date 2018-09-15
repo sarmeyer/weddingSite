@@ -690,14 +690,22 @@ h6 a {
   line-height: 1.25em;
   letter-spacing: 0.02em;
   font-family: Brush;
-  top: -60%;
-  position: fixed;
-  left: 15%;
+  margin-bottom: 1.5em;
+}
+
+.travelSection {
+  border: 1px solid black;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+#home > .content {
+  width: 100%;
+  height: 100%;
 }
 
 .mainDetails {
   font-size: 1.5em;
-  padding-bottom: 11%;
 }
 
 .mainArrow {
@@ -2396,21 +2404,31 @@ body.is-touch .main {
 
 @media screen and (max-width: 767px) {
   #home {
-    background: url("../../images/mobile/IMG_4376.jpg");
+    background: url("../../images/mobile/eng1.jpg");
+    background-size: cover;
   }
-}
-@media screen and (max-width: 767px) {
   #wedding {
-    background: url("../../images/mobile/IMG_5728.jpg");
+    background: url("../../images/mobile/crystalMill.jpeg");
+    background-size: cover;
   }
-}
-@media screen and (max-width: 767px) {
   #welcome {
-    background: url("../../images/mobile/IMG_7449.jpeg");
+    background: url("../../images/mobile/elbert.JPG");
+    background-size: cover;
   }
-}
-@media screen and (max-width: 767px) {
+  #details {
+    opacity: 0.94 !important;
+    padding-bottom: 20px !important;
+  }
   #hotel {
-    background: url("../../images/mobile/IMG_7859.jpg");
+    background: url("../../images/mobile/telluride.jpg");
+    background-size: cover;
+  }
+  #travel {
+    background: url("../../images/mobile/aspen.JPG");
+    background-size: cover;
+  }
+  .mainDetails,
+  .mainTitle {
+    color: black;
   }
 }
