@@ -690,18 +690,18 @@ h6 a {
   line-height: 1.25em;
   letter-spacing: 0.02em;
   font-family: Brush;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 .travelSection {
-  border: 1px solid black;
+  border: 1px dotted black;
   padding: 1em;
   margin-bottom: 1em;
 }
 
 #home > .content {
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 
 .mainDetails {

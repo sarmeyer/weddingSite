@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <header id="header">
-        <span>#BoulderShenanEgans</span>
+        <span style={{ marginLeft: "1em" }}>#BoulderShenanEgans</span>
         <nav>
           <ul>
             <li>

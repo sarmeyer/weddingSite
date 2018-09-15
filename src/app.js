@@ -17,6 +17,8 @@ class App extends Component {
     this.scrollToTop = this.scrollToTop.bind(this);
   }
 
+  // ***************** crop images in photos array to all be the same dimensions *** //
+
   scrollToTop() {
     scroll.scrollToTop();
   }
