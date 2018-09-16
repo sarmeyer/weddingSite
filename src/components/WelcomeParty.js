@@ -8,10 +8,11 @@ class WelcomeParty extends Component {
         <div className="content box style2" id="details">
           <h2>The Welcome Party</h2>
           <div className="details">
+            <div>The Bohemian Biergarten</div>
+            <div>2017 13th St.</div>
+            <div>Boulder, CO</div>
             <div>Friday, June 28, 2019</div>
             <div>6-9 PM</div>
-            <div>The Bohemian Biergarten</div>
-            <div>Boulder, CO</div>
           </div>
         </div>
         <Link
