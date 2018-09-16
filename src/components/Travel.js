@@ -12,18 +12,16 @@ class Travel extends Component {
         >
           <h2>Travel Info</h2>
           <section className="travelSection">
-            <div style={{ fontWeight: "bold", letterSpacing: "initial" }}>
-              General Colorado Travel Information
-            </div>
+            <div className="headingStyle">Welcome to Colorado!</div>
             <div>
-              Colorado is the Mile High City meaning we sit 5,280 feet above sea
-              level in town - Boulder has about the same elevation. Coming from
-              sea level, the elevation change can sometimes cause headaches and
+              Denver is the Mile High City meaning we are 5,280 feet above sea
+              level - Boulder has about the same elevation. Coming from sea
+              level, the elevation change can sometimes cause headaches and
               altitude sickness. DRINK LOTS OF WATER.
             </div>
           </section>
           <section className="travelSection">
-            <div style={{ fontWeight: "bold", letterSpacing: "initial" }}>
+            <div className="headingStyle">
               Denver International Airport to Boulder
             </div>
             <div>
@@ -34,7 +32,7 @@ class Travel extends Component {
             </div>
           </section>
           <section className="travelSection">
-            <div style={{ fontWeight: "bold", letterSpacing: "initial" }}>
+            <div className="headingStyle">
               Denver International Airport to Downtown Denver
             </div>
             <div>
@@ -44,9 +42,7 @@ class Travel extends Component {
             </div>
           </section>
           <section className="travelSection">
-            <div style={{ fontWeight: "bold", letterSpacing: "initial" }}>
-              Things to do and see in Boulder
-            </div>
+            <div className="headingStyle">Things to do and see in Boulder</div>
             <ul>
               <li>
                 <a href="https://bouldercolorado.gov/parks-rec/chautauqua-park">
