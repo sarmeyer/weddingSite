@@ -2433,6 +2433,10 @@ body.is-touch .main {
   .mainTitle {
     color: black;
   }
+  .mainTitle {
+    margin-bottom: 0.5em;
+    margin-top: -27px;
+  }
   .mainArrow {
     visibility: hidden;
   }
