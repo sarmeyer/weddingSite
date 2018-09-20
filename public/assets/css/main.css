@@ -2434,17 +2434,11 @@ body.is-touch .main {
     color: black;
   }
   .mainTitle {
+    font-size: 2.25em;
     margin-bottom: 0.5em;
     margin-top: -27px;
   }
   .mainArrow {
     visibility: hidden;
-  }
-}
-
-@media screen and (device-aspect-ratio: 40/71) {
-  .mainDetails,
-  .mainTitle {
-    color: white;
   }
 }
