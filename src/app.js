@@ -62,7 +62,7 @@ class App extends Component {
         <Hotel />
         <Travel />
         {/* <Photos title="Meet the Party" link="people" /> */}
-        <Photos title="Our Adventures" link="photos" images={adventurePhotos} />
+        {/* <Photos title="Our Adventures" link="photos" images={adventurePhotos} /> */}
         <Footer />
       </div>
     );

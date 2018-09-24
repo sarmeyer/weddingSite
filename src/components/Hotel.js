@@ -11,7 +11,12 @@ class Hotel extends Component {
             <div>
               For our group rate, please reserve your room before April 25th.
             </div>
+            <div>
+              A link to reserve will be available shortly - until then, you may
+              call the hotel and use our names as reference.
+            </div>
             <a href="https://www.boulderado.com/">Hotel Boulderado</a>
+            <div>(303) 442-4344</div>
             <div>2115 13th St, Boulder, CO 80302</div>
           </div>
         </div>

@@ -68,7 +68,7 @@ class Header extends Component {
                 Travel Info
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 activeClass="active"
                 className="people"
@@ -91,7 +91,7 @@ class Header extends Component {
               >
                 Our Adventures
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </header>

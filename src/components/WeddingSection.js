@@ -20,7 +20,7 @@ class WeddingSection extends Component {
           />
           <div style={{ fontSize: "1.5em" }}>Ceremony & Reception</div>
           <div>Saturday, June 29, 2019</div>
-          <div>6 PM</div>
+          <div>5:30 PM</div>
           <div>
             <a href="https://rembrandtyard.com/">The Rembrandt Yard</a>
           </div>
