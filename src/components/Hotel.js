@@ -8,16 +8,23 @@ class Hotel extends Component {
         <div className="content box style2" id="details">
           <h2>Hotel Info</h2>
           <div className="details">
-            <div>
-              For our group rate, please reserve your room before April 25th.
-            </div>
-            <div>
-              A link to reserve will be available shortly - until then, you may
-              call the hotel and use our names as reference.
-            </div>
-            <a href="https://www.boulderado.com/">Hotel Boulderado</a>
-            <div>(303) 442-4344</div>
-            <div>2115 13th St, Boulder, CO 80302</div>
+            <section style={{ marginBottom: ".5em" }}>
+              <a href="https://www.boulderado.com/">Hotel Boulderado</a>
+              <div>(303) 442-4344</div>
+              <div>2115 13th St, Boulder, CO 80302</div>
+            </section>
+
+            <section>
+              <div style={{ marginBottom: ".5em" }}>
+                For our group rate, please reserve your room before April 25th.
+              </div>
+              <a
+                href="https://reservations.travelclick.com/13070?groupID=2388220"
+                style={{ fontSize: "1.1em" }}
+              >
+                - Click here to book your stay -
+              </a>
+            </section>
           </div>
         </div>
         <Link

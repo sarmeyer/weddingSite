@@ -2389,7 +2389,7 @@ body.is-touch .main {
 }
 
 #hotel {
-  background: url("images/overlay.png"), url("../../images/telle2.jpg");
+  background: url("images/overlay.png"), url("../../images/yellow.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
